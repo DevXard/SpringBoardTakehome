@@ -1,7 +1,7 @@
 import {Switch, Route} from 'react-router-dom';
 import Users from '../Users/Users';
 import SignUp from '../SignUp/SignUp';
-
+import LandingPage from '../Landing/LandingPage';
  
 const Routes = () => {
 
@@ -9,7 +9,7 @@ const Routes = () => {
         <Switch>
         
             <Route exact path='/' >
-                <div>HI</div>
+                <LandingPage />
             </Route>
             <Route exact path='/signup' >
                 <SignUp />
